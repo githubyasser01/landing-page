@@ -1,0 +1,24 @@
+
+.main{
+    margin: 0 0 0 0;
+    display: flex;
+    align-self: center;
+    flex: 0.25 0.25 auto;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 960px;
+    gap: 20px;
+}
+
+.plants{
+    width: 100%;
+    object-fit: contain;
+}
+.main div{
+    width: 220px;
+    margin-top: 50px;
+    flex: 0 1 0;
+
+}
