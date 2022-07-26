@@ -1,69 +1,24 @@
-*{
+  *{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 0;
-    margin-top: 0px;
-    margin-bottom:12px;
-    margin-left: 0px;
-    margin-right:0px;
-}
-body{
-    display: flex;
-    flex-direction: column;
-    height: 960px;
-}
+  }
+  /*general*/
+  img{
+    max-width: 100%;
+    margin: auto;
+  }
+  button:hover{
+    background-color: white;
+    color: #1f2937;
+  }
+  a:hover{
+    text-decoration:underline ;
+  } 
+  img:hover{
+    cursor:pointer;
+  }
+  /*general*/
 
-header{
-    display: flex;
-    margin-bottom: 0px;
-    width: 100%;
-    flex: 0.05 0.05 auto;
-    padding: 20px;
-    justify-content: space-around;
-    background-color: #1F2937;
-    color: white;
-}
-
-header>ul{
-    list-style: none;
-    display: flex;
-    text-align: right;
-    gap:13px;
-    cursor: pointer;
-    justify-self: flex-end;
-}
-
-
-header .logo{
-    color: #f9faf8;
-    font-size: 18px;   
-}
-
-.second-header{
-    flex: 0.2 0.2 auto;
-    margin-right: 0px;
-    width: 100%;
-    background-color: #1F2937;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 80px;
-
-}
-
-.left{
-    display: flex;
-    flex-direction: column;
-    padding-right: 0px;
-    margin-left: 300px;
-    width: 650px;
-}
-
-.header-img{
-    margin-right: 15%;    
-}
-
-.left button{
+  button{
     height: 40px;
     width: 100px;
     border-radius: 10px;
@@ -73,21 +28,68 @@ header .logo{
     color:white;
     background-color: #3882f6;
     cursor: pointer;
-    margin-left: 20px;
+    margin-left: 15px;
 
-}
+  }
+ 
+  
+  .dark-bg{
+    background-color: #1f2937;
+  }
 
-.header-announcement{
+  nav{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    padding: 20px 0px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .links{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+
+  .logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+  }
+
+  .second-header{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    align-items: center;
+  }
+
+  .left{
+    width: 50%;
+  }
+
+  .header-img{
+    width: 500px;
+    margin: auto;
+  }
+
+  .header-announcement{
+    width: 100%;
+    margin-bottom: 20px;
     font-size: 48px;
-    color: white;
-    font-weight: 800;
-    width: max-content;
-}
+    color: #f9faf8;
+    font-weight: bolder;
 
-.header-subtext{
+  }
+  .header-subtext{
+    margin: 20px;
+    width:50%;
+    margin-left: 15px;
     font-size: 18px;
-    color: #E5E7EB;
-    width: 60%;
-    padding-left: 20px;
-    height: fit-content;
-}
+    color: #e5e7eb;
+
+  }
+  
